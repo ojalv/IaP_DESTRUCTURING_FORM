@@ -12,6 +12,7 @@ form.addEventListener("submit", (event) => {
   form.style.display = "none";
   document.getElementById("body").innerHTML += `<div class="modal">
 	<h2>Envio exitoso!</h2>
+	<p>La siguiente informacion ha sido registrada</p>
 	<div class="user-info">
 	<span>Nombre:${name}</span>
 	<span>Apellido:${lastname}</span>
