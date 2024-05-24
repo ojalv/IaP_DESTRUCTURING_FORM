@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h1>Formulario</h1>
+    <p>
+      Por favor completa el siguiente formulario con la informacion solicitada
+      para tu registro
+    </p>
+    <form action="send_data" method="post" id="user_form">
+      <fieldset>
+        <legend>Informacion Personal</legend>
+        <div>
+          <label for="name">Nombre:</label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div>
+          <label for="lastname">Apellido:</label>
+          <input type="text" name="lastname" id="lastname" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Informacion de Contacto</legend>
+        <div>
+          <label for="email">Correo Electronico:</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div>
+          <label for="phone">Numero de Telefono:</label>
+          <input type="tel" name="lastname" id="lastname" />
+        </div>
+      </fieldset>
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
